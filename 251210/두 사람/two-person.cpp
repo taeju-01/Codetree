@@ -10,6 +10,8 @@ int main() {
         if((a=='M'||b=='M')){
             cout<<1;
         }
+        else
+        cout<<0;
     }
     else
     cout<<0;
