@@ -6,9 +6,9 @@ int main() {
     int a_age,b_age;
     char a,b;
     cin>>a_age>>a>>b_age>>b;
-    if((a_age>=19||a=='M'))
+    if((a_age>=19&&a=='M'))
     cout<<1;
-    else if((b_age>=19||b=='M')){
+    else if((b_age>=19&&b=='M')){
             cout<<1;
         }
         else
