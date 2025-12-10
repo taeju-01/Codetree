@@ -5,25 +5,12 @@ int main() {
     // Please write your code here.
     int a,b,c;
     cin>>a>>b>>c;
-    if(a<b){
-        if(b<c)
-        cout<<b;
-        else
-        cout<<c;
-    }
-    else if(b>c){
-        if(a>b)
-        cout<<b;
-        else
-        cout<<a;
-    }
-    else if(c>a){
-        if(b>a)
-        cout<<b;
-        else
-        cout<<a;
-    }
-    
+    if((b>a&&c>b)||(b>c&&b<a))
+    cout<<b;
+    else if((a<c&&c<b)||(b<c&&c<a))
+    cout<<c;
+    else
+    cout<<a;
 
     return 0;
 }
