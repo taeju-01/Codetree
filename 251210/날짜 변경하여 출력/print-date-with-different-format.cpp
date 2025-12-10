@@ -5,7 +5,7 @@ int main() {
     // Please write your code here.
     int y,m,d;
     char a;
-    cin>>y>>a>>m>>d;
+    cin>>y>>a>>m>>a>>d;
     a='-';
     cout<<m<<a<<d<<a<<y;
     return 0;
