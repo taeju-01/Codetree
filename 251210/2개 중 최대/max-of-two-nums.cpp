@@ -6,5 +6,6 @@ int main() {
     int a,b;
     cin>>a>>b;
     c=a>b?a:b;
+    cout<<c;
     return 0;
 }
