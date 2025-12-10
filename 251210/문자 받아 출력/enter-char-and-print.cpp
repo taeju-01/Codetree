@@ -5,6 +5,6 @@ int main() {
     // Please write your code here.
     char c;
     cin>>c;
-    cout<<C;
+    cout<<c;
     return 0;
 }
