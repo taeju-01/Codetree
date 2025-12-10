@@ -7,10 +7,10 @@ int main() {
     cin>>a>>b;
     if(a>=90){
         if(b>=95){
-            cout<<10;
+            cout<<100000;
         }
-        else(b>=90){
-            cout<<5;
+        else if(b>=90){
+            cout<<50000;
         }
     }
     else
