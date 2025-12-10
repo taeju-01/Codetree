@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Please write your code here.
+    int n;
+    cin>>n;
+    if(n==4||n==6||n==9||n==11){
+        cout<<30;
+    }
+    else if(n==2){
+        cout<<28;
+    }
+    else
+    cout<<31;
+    return 0;
+}
