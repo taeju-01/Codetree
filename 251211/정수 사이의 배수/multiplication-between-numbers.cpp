@@ -22,6 +22,6 @@ int main() {
     }
     cout<<fixed;
     cout.precision(1);
-    cout<<sum_5+sum+7<<" "<<double(sum+5+sum+7)/(cnt_5+cnt_7);
+    cout<<sum_5+sum_7<<" "<<double(sum_5+sum_7)/(cnt_5+cnt_7);
     return 0;
 }
