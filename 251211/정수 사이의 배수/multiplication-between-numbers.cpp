@@ -14,7 +14,7 @@ int main() {
             cnt_5++;
             sum_5+=i;
         }
-        if(i%7==0){
+        else if(i%7==0){
             cnt_7++;
             sum_7+=i;
         }
