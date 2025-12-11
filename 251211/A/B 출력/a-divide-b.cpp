@@ -8,12 +8,15 @@ int main() {
     int d;
     int c=a/b;
     cout<<c<<".";
+    int k=a%b;
+    k=k*10;
+    int L=k/b;
     for(int i=1;i<21;i++){
-    d=a%b;
-    d*=10;
-    d=d/b;
-    cout<<d;
-    i++;
+        cout<<L;
+    k=k%b;
+    k=k*10;
+    L=k/b;
+    
     }
 
       
