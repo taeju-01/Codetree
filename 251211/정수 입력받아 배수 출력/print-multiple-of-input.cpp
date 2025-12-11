@@ -6,7 +6,7 @@ int main() {
     int n;
     cin>>n;
     for(int i=1;i<=5;i++){
-        cout<<N*i<<" ";
+        cout<<n*i<<" ";
     }
     return 0;
 }
