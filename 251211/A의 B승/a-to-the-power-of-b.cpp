@@ -13,7 +13,7 @@ int main() {
     }
     }
     else{
-        prod=0;
+        prod=1;
     }
 
     cout<<prod;
