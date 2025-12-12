@@ -10,11 +10,12 @@ int main() {
         int a;
         cin>>a;
         if(a>=20&&a<30){
-            break;
+             sum+=a;
+            cnt++;           
         }
         else{
-            sum+=a;
-            cnt++;
+           
+            break;
         }
     }
     cout<<fixed;
