@@ -12,7 +12,7 @@ int main() {
             cnt++;
         }
         else{
-            n=(n*2)+12;
+            n=(n*2)+2;
             cnt++;
         }
     }
