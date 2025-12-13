@@ -7,9 +7,10 @@ int main() {
     cin>>n;
     int sum=n+1;
     for(int i=1;i<=n;i++){
+        int ii=i;
         for(int j=0;j<n;j++){
-            cout<<i;
-            i=sum-i;
+            cout<<ii;
+            ii=sum-ii;
         }
         cout<<endl;
     }
