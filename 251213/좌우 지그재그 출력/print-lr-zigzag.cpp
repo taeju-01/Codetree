@@ -11,10 +11,11 @@ int main() {
         
         if(i%2!=0){
             for(int j=0;j<n;j++){
+                
                 cout<<cnt<<" ";
                 cnt++;
             }
-            cnt=((cnt-1)*2)+1;
+            // cnt=((cnt-1)*2)+1;
         }
         else{
             cnt_1=n*i;
@@ -23,7 +24,9 @@ int main() {
             cout<<cnt_1<<" ";
             cnt_1--;
             
+            
         }
+        cnt=cnt_1+n+1;
         }
         cout<<endl;
     }
