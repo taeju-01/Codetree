@@ -12,7 +12,7 @@ int main() {
             }
         }
         else{
-            for(int j=(4*n)-(3*i);j<2*n;j++){
+            for(int j=(2*n-i)+i/2;j<2*n;j++){
                 cout<<"* ";
             }
         }
