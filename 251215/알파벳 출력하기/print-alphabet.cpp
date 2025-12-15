@@ -9,6 +9,9 @@ int main() {
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
             cout<<cnt;
+            
+            if(int cnt==90)
+            cnt=64;
             cnt++;
         }
         cout<<endl;
