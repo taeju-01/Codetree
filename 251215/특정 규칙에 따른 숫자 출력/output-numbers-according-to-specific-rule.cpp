@@ -13,6 +13,9 @@ int main() {
         for(int j=n;j>i;j--){
             cout<<cnt<<" ";
             cnt++;
+            if(cnt>=10)
+            cnt=1;
+            
         }
         cout<<endl;
     }
