@@ -6,7 +6,7 @@ int main() {
     int a,b;
     cin>>a>>b;
     int s;
-    int count_arr[4]={0, };
+    int count_arr[100]={0, };
     while(1){
         if(a<=0)
         break;
