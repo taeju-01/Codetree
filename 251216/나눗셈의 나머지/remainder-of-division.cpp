@@ -7,7 +7,9 @@ int main() {
     cin>>a>>b;
     int s;
     int count_arr[4]={0, };
-    while(a>0){
+    while(1){
+        if(a<=0)
+        break;
         s=a%b;
         a=a/b;
         count_arr[s]++;
