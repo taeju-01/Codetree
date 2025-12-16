@@ -10,7 +10,7 @@ int main() {
     arr[0]=a;
     int count_arr[11]={};
     for(int i=0;i<100;i++){
-        if(arr[i]<=0)
+        if(arr[i]<=1)
         break;
         arr[i+1]=arr[i]/b;
         count_arr[arr[i]%b]++;
