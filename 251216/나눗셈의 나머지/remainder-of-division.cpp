@@ -13,9 +13,7 @@ int main() {
         count_arr[s]++;
     }
     int sum=0;
-    for(int i=0;i<4;i++){
-        sum=sum+(count_arr[i]*count_arr[i]);
-    }
-    cout<<sum;
+  
+    cout<<count_arr[0]*count_arr[0]+count_arr[1]*count_arr[1]+count_arr[2]*count_arr[2]+count_arr[3]*count_arr[3];
     return 0;
 }
