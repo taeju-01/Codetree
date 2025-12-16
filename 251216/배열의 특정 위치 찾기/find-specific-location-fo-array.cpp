@@ -14,7 +14,7 @@ int main() {
         if((i+1)%2==0){
             sum+=arr[i];
         }
-        else if((i+1)%3==0){
+        if((i+1)%3==0){
             avg+=arr[i];
             cnt++;
         }
