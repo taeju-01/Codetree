@@ -15,8 +15,6 @@ int main() {
     int sum=0;
     for(int i=0;i<4;i++){
         sum=sum+(count_arr[i]*count_arr[i]);
-
-        
     }
     cout<<sum;
     return 0;
