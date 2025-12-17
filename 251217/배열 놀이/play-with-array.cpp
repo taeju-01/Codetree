@@ -30,15 +30,14 @@ int main() {
                 if(arr[i]==a){
                     d=i;
                     cnt++;
+                    break;
                 }
             }
-            cout<<cnt<<endl;
-                if(cnt==1){
+            // cout<<cnt<<endl;
+                if(cnt>=1){
                     cout<<d+1<<endl;
                 }
-                else if(cnt>=2){
-                    cout<<arr[0]<<endl;
-                }
+                
                 else{
                 cout<<0<<endl;
                 }
