@@ -11,9 +11,7 @@ int main() {
         cin>>arr[i];
     }
     int t,a,b;
- 
-    int w;
-    int d=0;
+    int d;
     for(int i=0;i<q;i++){
         cin>>t;
         if(t==3){
@@ -22,30 +20,30 @@ int main() {
         else{
             cin>>a;
         }
-
         if(t==1){
             cout<<arr[a-1]<<endl;
         }
-        else if(t==2){
-               int cnt=0;
+           
+        if(t==2){
+            int cnt=0;
             for(int i=0;i<n;i++){
-                
                 if(arr[i]==a){
                     d=i;
                     cnt++;
                 }
             }
+            cout<<cnt<<endl;
                 if(cnt==1){
                     cout<<d+1<<endl;
                 }
-                else if(cnt>1){
+                else if(cnt>=2){
                     cout<<arr[0]<<endl;
-            }
-            else{
+                }
+                else{
                 cout<<0<<endl;
-            }
+                }
         }
-        else if(t==3){
+        if(t==3){
             for(int i=a;i<=b;i++){
                 cout<<arr[i-1]<<" ";
             }
