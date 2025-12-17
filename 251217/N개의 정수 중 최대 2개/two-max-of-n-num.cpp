@@ -10,21 +10,25 @@ int main() {
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int max_value=arr[0];
-    for(int i=0;i<n;i++){
-        if(max_value<arr[i]){
-            max_value=arr[i];
-            d=i;
+    int max1,max2;
+    if(arr[0]>arr[1]){
+        max1=arr[0];
+        max2=arr[1];
+    }
+    else{
+        max1=arr[1];
+        max2=arr[0];
+    }
+    for(int i=2;i<n;i++){
+        if(arr[i]>max1){
+            max2=max1;
+            max1=arr[i];
+        }
+        else if(arr[i]>max2){
+            max2=arr[i];
         }
     }
-    int max_value_2=arr[0];
-    for(int i=0;i<n;i++){
-        if(i!=d&&max_value_2<arr[i]){
-            max_value_2=arr[i];
-        }
-
-    }
-    cout<<max_value<<" "<<max_value_2;
+    cout<<max1<<" "<<max2;
     
 
     return 0;
