@@ -15,11 +15,11 @@ int main() {
     }
     int cnt=0;
     for(int i=0;i<n;i++){
-        for(int j=0;j<arr[i].length();j++){
-            if(arr[i][j]=='a'){
+        
+            if(arr[i][0]=='a'){
                 cnt++;
             }
-        }
+        
     }
     cout<<sum<<" "<<cnt;
     return 0;
