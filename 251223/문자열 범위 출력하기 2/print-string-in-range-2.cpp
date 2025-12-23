@@ -7,7 +7,7 @@ int main() {
     int n;
     cin>>str;
     cin>>n;
-    for(int i=str.length()-1;i>=str.length()-11;i--){
+    for(int i=str.length()-1;i>=str.length()-n;i--){
         cout<<str[i];
     }
     return 0;
