@@ -10,7 +10,7 @@ int main() {
     while(len>1){
         
         cin>>n;
-        if(len<n){
+        if(len<=n){
             a.erase(len-1,1);
             len--;
             
