@@ -13,6 +13,9 @@ bool Isyoonyear(int y){
     else if(y%4==0){
         return true;
     }
+    else{
+        return false;
+    }
 }
 
 int main() {
