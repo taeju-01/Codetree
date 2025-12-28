@@ -4,15 +4,16 @@ using namespace std;
 
 int a, b;
 int math(int a,int b){
+    int c=1;
     for(int i=0;i<b;i++){
-        a*=a;
+        c*=a;
     }
-    cout<<a;
+    return c;
 }
 
 int main() {
     cin >> a >> b;
-    math(a,b);
+    cout<<math(a,b);
 
     // Please write your code here.
 
