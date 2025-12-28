@@ -9,7 +9,7 @@ bool even(int n){
 
 int main() {
     cin >> n;
-    if(even){
+    if(even(n)){
         cout<<"Yes";
     }
     else
