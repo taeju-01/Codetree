@@ -52,7 +52,7 @@ void weather(int Y,int M,int D){
         else if(M>=6&&M<=8){
             cout<<"Summer";
         }
-        else if(M>=9&&M>=11){
+        else if(M>=9&&M<=11){
             cout<<"Fall";
         }
         else if(M==12||M==1||M==2){
