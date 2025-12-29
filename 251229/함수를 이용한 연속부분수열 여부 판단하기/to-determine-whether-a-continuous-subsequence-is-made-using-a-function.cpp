@@ -5,12 +5,8 @@ using namespace std;
 int n1, n2;
 int a[100], b[100];
 bool straight(int n1,int n2){
-    if(n1==1&&n2==1){
-        if(a[0]==b[0]){
-            return true;
-        }
-    }
-    for(int i=0;i<n1-n2;i++){
+   
+    for(int i=0;i<=n1-n2;i++){
         bool ok=true;
         for(int j=0;j<n2;j++){
             if(a[i+j]!=b[j]){
