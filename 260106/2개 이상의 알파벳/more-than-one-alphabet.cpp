@@ -6,8 +6,8 @@ using namespace std;
 string A;
 void small(string A){
     int cnt=0;
-    for(int i=1;i<A.length();i++){
-        if(A[i-1]!=A[i]){
+    for(int i=0;i<A.length();i++){
+        if(A[i]!=A[i+1]){
             cnt++;
         }
     }
